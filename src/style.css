@@ -1,0 +1,59 @@
+html {
+  height: 100%;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-image: url(https://www.thestar.com/content/dam/thestar/sports/tour_de_france/2012/07/19/tour_de_france_calories_are_key_for_riders_to_avoid_bonking_in_the_mountain_stages/tour_defrance.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+
+#lc {
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    background-color: #fff;
+    opacity: .8;
+}
+
+#pos {
+  transform:rotate(-90deg);
+   position: absolute;
+    top: 10%;
+    left: 0%;
+    font-size: 20px;
+}
+
+#time {
+    position: absolute;
+    bottom: 0%;
+    left: 40%;
+    font-size: 20px;
+}
+
+.custom-tooltip {
+  width: 230px;
+    margin: 0;
+    line-height: 24px;
+    border: 1px solid #f5f5f5;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+}
+.custom-tooltip  .label {
+  margin: 0;
+  color: black;
+  font-size:15px;
+}
+.custom-tooltip  .desc {
+  margin: 0;
+  color: black;
+  font-size:15px;
+}
+.custom-tooltip  .intro {
+  border-top: 1px solid #f5f5f5;
+  margin: 0;
+  font-size:15px;
+}
